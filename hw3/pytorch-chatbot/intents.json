@@ -1,0 +1,160 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "Yo"
+      ],
+      "responses": [
+        "Hey hey hey!",
+        "Hello, sunshine, thanks for visiting!",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?",
+        "Yo, dear friend <3"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later! Come any time to talk",
+        "Bye!",
+        "Bye! As Truman told, in case I don't see ya: good afternoon, good evening, and good night!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's"],
+      "responses": ["Happy to help, my dear friend!", "Any time!", "My pleasure <3"]
+    },
+    {
+      "tag": "movie_recommendation",
+      "patterns": [
+        "Suggest a good movie",
+        "What movie should I watch?",
+        "Recommend a film",
+        "Any movie recommendations?",
+        "What's a must-see film?",
+        "Another movie recommendations?"
+      ],
+      "responses": [
+        "The Shawshank Redemption is a classic choice!",
+        "You might enjoy Inception for its mind-bending plot",
+        "Try watching The Dark Knight - it's one of the best superhero films",
+        "Pirates of the Caribbean - nice choice for comfy evening"
+      ]
+    },
+    {
+      "tag": "music_suggestion",
+      "patterns": [
+        "Recommend some rock music",
+        "What rock band should I listen to?",
+        "Any music recommendations?",
+        "Recommend rock band",
+        "Another music recommendations?"
+      ],
+      "responses": [
+        "If you are into emo, My Chemical Romance would be a good choice",
+        "If you like hard rock and punk, listen to Rise Against. By the way, interesting fact: members are vegans",
+        "Green Day is some kind of classic",
+        "If it rains, listen to The Rasmus; if sun shines listen to Good Charlotte",
+        ""
+      ]
+    },
+    {
+      "tag": "book_request",
+      "patterns": [
+        "Suggest a good book",
+        "What novel should I read?",
+        "Recommend literature classics",
+        "Any book recommendations?",
+        "What's a must-read book?",
+        "Another book recommendations?"
+      ],
+      "responses": [
+        "To Kill a Mockingbird by Harper Lee is a timeless classic",
+        "1984 by George Orwell remains incredibly relevant",
+        "Try The Great Gatsby for American literature at its finest",
+        "The good earth by Pear Buck",
+        "The Adventures of Huckleberry Finn",
+        "Three Comrades or Flotsam by Erich Maria Remarque hits deeply"
+      ]
+    },
+    {
+      "tag": "movie_info",
+      "patterns": [
+        "Movie fact",
+        "Movie info"
+      ],
+      "responses": [
+        "The Matrix was directed by the Wachowskis",
+        "Pulp Fiction was released in 1994",
+        "Titanic starred Leonardo DiCaprio and Kate Winslet",
+        "Inception explores dream-sharing technology",
+        "The Godfather has a runtime of 2 hours 55 minutes"
+      ]
+    },
+    {
+      "tag": "music_info",
+      "patterns": [
+        "Music fact",
+        "Music info"
+      ],
+      "responses": [
+        "Freddie Mercury was Queen's legendary frontman",
+        "Nirvana formed in 1987 in Washington",
+        "Pink Floyd pioneered progressive rock",
+        "Abbey Road was released in 1969",
+        "Stairway to Heaven was written by Led Zeppelin"
+      ]
+    },
+    {
+      "tag": "literature_questions",
+      "patterns": [
+        "Literature fact",
+        "Literature info"
+      ],
+      "responses": [
+        "George Orwell wrote 1984",
+        "Pride and Prejudice is set in Regency England",
+        "Captain Ahab is the protagonist of Moby Dick",
+        "The Catcher in the Rye was published in 1951",
+        "Animal Farm is an allegory about totalitarianism"
+      ]
+    },
+    {
+      "tag": "entertainment_help",
+      "patterns": [
+        "What can you recommend?",
+        "Help me choose something",
+        "What options do I have?",
+        "Suggest something interesting",
+        "I need entertainment ideas"
+      ],
+      "responses": [
+        "I can recommend movies, music or books! Tell me your preference",
+        "Would you like film, music or book suggestions?",
+        "I have recommendations across different media formats"
+      ]
+    },
+    {
+      "tag": "cultural_history",
+      "patterns": [
+        "Cultural fact",
+        "Cultural info"
+      ],
+      "responses": [
+        "Citizen Kane revolutionized cinematography techniques",
+        "Sgt. Pepper's pioneered concept albums in rock",
+        "Shakespeare shaped modern English literature",
+        "The Godfather redefined gangster film storytelling",
+        "Beethoven bridged Classical and Romantic eras"
+      ]
+    }
+  ]
+}
