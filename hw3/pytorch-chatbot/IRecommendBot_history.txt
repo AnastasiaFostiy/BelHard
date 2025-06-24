@@ -1,0 +1,31 @@
+IRecommend: Let's talk! (type 'The end' to exit)
+You: Hey!
+IRecommend: Hey hey hey!
+You: I don't know how to spend my evening. Suggest something interesting, please
+IRecommend: I can recommend movies, music or books! Tell me your preference
+You: Hmm... Could you recommend a movie?
+IRecommend: Pirates of the Caribbean - nice choice for comfy evening
+You: Nice! But I watched it twice. Another movie recommendations?
+IRecommend: You might enjoy Inception for its mind-bending plot
+You: Well... It seems like I am not into any of that
+IRecommend: Pu-pu-pu, lets change the subject..!
+You: Tell me movie fact
+IRecommend: The Godfather has a runtime of 2 hours 55 minutes
+You: Cool! Want to listen to music. Any music recommendations?
+IRecommend: If you are into emo, My Chemical Romance would be a good choice
+You: Thanks
+IRecommend: Happy to help, my dear friend!
+You: Tell me music fact
+IRecommend: Freddie Mercury was Queen's legendary frontman
+You: Okay. Suggest a good book
+IRecommend: Try The Great Gatsby for American literature at its finest
+You: Cool. Gonna read it. That's helpful
+IRecommend: Any time!
+You: Could you tell me literature fact?
+IRecommend: Captain Ahab is the protagonist of Moby Dick
+You: You made my evening. Thank you
+IRecommend: Happy to help, my dear friend!
+You: Bye
+IRecommend: See you later! Come any time to talk
+You: The end
+IRecommend: <3...

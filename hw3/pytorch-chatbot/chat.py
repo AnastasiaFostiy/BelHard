@@ -1,10 +1,9 @@
 import random
 import json
-
 import torch
-
 from model import NeuralNet
 from nltk_utils import bag_of_words, tokenize
+
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
@@ -25,13 +24,17 @@ model = NeuralNet(input_size, hidden_size, output_size).to(device)
 model.load_state_dict(model_state)
 model.eval()
 
+sentences = []
 bot_name = "IRecommend"
-print("Let's talk! (type 'The end' to exit)")
+sentences.append(f"{bot_name}: Let's talk! (type 'The end' to exit)")
+print(sentences[-1])
+
 while True:
-    # sentence = "do you use credit cards?"
     sentence = input("You: ")
+    sentences.append(f"You: {sentence}")
     if sentence.lower() == "the end":
-        print(f"{bot_name}: <3...")
+        sentences.append(f"{bot_name}: <3...")
+        print(sentences[-1])
         break
 
     sentence = tokenize(sentence)
@@ -49,6 +52,14 @@ while True:
     if prob.item() > 0.75:
         for intent in intents['intents']:
             if tag == intent["tag"]:
-                print(f"{bot_name}: {random.choice(intent['responses'])}")
+                sentences.append(f"{bot_name}: {random.choice(intent['responses'])}")
+                print(sentences[-1])
     else:
-        print(f"{bot_name}: Pu-pu-pu, lets change the subject..!")
+        sentences.append(f"{bot_name}: Pu-pu-pu, lets change the subject..!")
+        print(sentences[-1])
+
+
+with open('IRecommendBot_history.txt', 'w') as file:
+    for line in sentences:
+        file.write(line + '\n')
+
